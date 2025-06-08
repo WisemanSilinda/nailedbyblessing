@@ -3,46 +3,384 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nailed By Blessing</title>
+    <title>Nailed By Blessing | Professional Nail Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <div class="navbar">
-        <a href="index.html" class="navbar-logo">
-            <img src="logo.png" alt="Nailed By Blessing">
-        </a>
-        <div class="navbar-links">
-            <a href="index.html" class="active">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="contact.html">Contact</a>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-hand-sparkles"></i>
+                <span>Nailed By Blessing</span>
+            </a>
+            
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#booking">Book Now</a></li>
+            </ul>
         </div>
-    </div>
+    </header>
 
     <!-- Hero Section -->
-    <div class="hero"> 
-        <div class="hero-content">
-            <h1 class="hero-title">Welcome to Nailed By Blessing</h1>
-            <p>Your beauty, our passion. Experience the best nail care and art in town.</p>
-            <a href="bookappointment.html" class="hero-btn">Book Appointment</a>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Professional Nail Care & Art</h1>
+                <p>Experience luxury nail services tailored just for you. Book your appointment today and let your nails tell your story.</p>
+                <div class="hero-btns">
+                    <a href="#booking" class="btn">Book Appointment</a>
+                    <a href="#services" class="btn btn-accent">View Services</a>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Main Content Area -->
-    <div class="main-content">
-        <div class="content">
-           
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="assets\yuy.jpg " alt="Blessing - Nail Technician">
+                </div>
+                <div class="about-text">
+                    <h2>Hi, I'm Blessing</h2>
+                    <p>Welcome to Nailed By Blessing, where your nail dreams come to life. With years of experience in the nail industry, I've perfected the art of creating beautiful, long-lasting nail enhancements that complement your unique style.</p>
+                    <p>My passion for nail artistry drives me to stay updated with the latest trends and techniques, ensuring you receive top-quality service every time you visit.</p>
+                    <p>Located in Block B Ekhaya, my studio provides a relaxing and hygienic environment where you can unwind while I work my magic on your nails.</p>
+                    <p class="signature">- Blessing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+    <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="assets\WhatsApp Image 2025-05-19 at 19.22.30_9fc96f41.jpg" alt="Manicure">
+                </div>
+                <div class="service-content">
+                    <h3>Manicure Services</h3>
+                    <p>
+                        Complete nail care including expert shaping, gentle cuticle care, and flawless polish application. 
+                        Our manicure treatments are designed to nourish your nails and hands, leaving them healthy, smooth, and beautifully polished. 
+                        Choose from a variety of colors and designs to express your unique style.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="assets\ped.jpeg" alt="Pedicure">
+                </div>
+                <div class="service-content">
+                    <h3>Pedicure Services</h3>
+                    <p>
+                        Revitalize your feet with our luxurious pedicure treatments that include soothing foot baths, exfoliation, nail trimming, and moisturizing massages. 
+                        Perfect for relieving tired feet and improving skin texture, our pedicures leave you feeling refreshed and confident to step out in style.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Nail Extras">
+                </div>
+                <div class="service-content">
+                    <h3>Additional Services</h3>
+                    <p>
+                        Complement your nail care with our range of additional services including intricate nail art, chrome finishes, gel overlays, and nail repairs. 
+                        Whether you want to add sparkle, texture, or extra durability, our skilled technicians will customize your look to perfection.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
+</section>
+<!-- Pricing Section -->
+<section id="pricing" class="pricing section">
+    <div class="container">
+        <h2 class="section-title">Detailed Pricing</h2>
+        <div class="pricing-tables">
+            <!-- Plain Acrylic Nails -->
+            <div class="pricing-table">
+                <h3>Plain Acrylic Nails</h3>
+                <div class="price-list">
+                    <div class="price-item">
+                        <span class="price-name">Short</span>
+                        <span class="price-value">R160</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">Medium</span>
+                        <span class="price-value">R180</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">Long</span>
+                        <span class="price-value">R200</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">X-Long</span>
+                        <span class="price-value">R220</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- French Nails -->
+            <div class="pricing-table">
+                <h3>French Nails</h3>
+                <div class="price-list">
+                    <div class="price-item">
+                        <span class="price-name">Short</span>
+                        <span class="price-value">R200</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">Medium</span>
+                        <span class="price-value">R240</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">Long</span>
+                        <span class="price-value">R280</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">X-Long</span>
+                        <span class="price-value">R300</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ombré Nails -->
+            <div class="pricing-table">
+                <h3>Ombré Nails</h3>
+                <div class="price-list">
+                    <div class="price-item">
+                        <span class="price-name">Short</span>
+                        <span class="price-value">R220</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">Medium</span>
+                        <span class="price-value">R240</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">Long</span>
+                        <span class="price-value">R260</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">X-Long</span>
+                        <span class="price-value">R280</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nail Art (Per Nail) -->
+            <div class="pricing-table">
+                <h3>Nail Art (Per Nail)</h3>
+                <div class="price-list">
+                    <div class="price-item">
+                        <span class="price-name">Charms & Rhinestones</span>
+                        <span class="price-value">R5</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">3D Art</span>
+                        <span class="price-value">R10 - R20</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">3D Flower</span>
+                        <span class="price-value">R10</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">Aura</span>
+                        <span class="price-value">R10</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">Bowtie</span>
+                        <span class="price-value">R5</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">Chrome</span>
+                        <span class="price-value">R20</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pedicure -->
+            <div class="pricing-table">
+                <h3>Pedicure</h3>
+                <div class="price-list">
+                    <div class="price-item">
+                        <span class="price-name">Gel</span>
+                        <span class="price-value">R130</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">Plain Acrylic</span>
+                        <span class="price-value">R140</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">French Acrylic</span>
+                        <span class="price-value">R160</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Services -->
+            <div class="pricing-table">
+                <h3>Other Services</h3>
+                <div class="price-list">
+                    <div class="price-item">
+                        <span class="price-name">Soak Off</span>
+                        <span class="price-value">R50</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">Buff & Shine</span>
+                        <span class="price-value">R80</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="price-name">Refill</span>
+                        <span class="price-value">R180</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+    <!--Gallery Section -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <h2 class="section-title">Our Work</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="assets/WhatsApp Image 2025-05-19 at 19.22.29_5a3426c6.jpg" alt="Nail Design">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                 <div class="gallery-item">
+                    <img src="assets/Screenshot (188).png  " alt="Nail Design">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                 <div class="gallery-item">
+                    <img src="assets/WhatsApp Image 2025-05-19 at 19.22.30_9fc96f41.jpg" alt="Nail Design">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/WhatsApp Image 2025-05-19 at 19.22.30_e2097495.jpg" alt="Nail Design">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                 
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking section">
+    <div class="container">
+        <h2 class="section-title">Book Your Appointment</h2>
+        <p>Ready to pamper yourself with beautiful nails? Fill out the form below to request your appointment.</p>
+        
+        <!-- Booking Information & Steps -->
+        <div class="booking-info" style="margin-bottom: 30px;">
+            <h3>Booking Information & Steps</h3>
+            <ol style="text-align:left; margin: 0 auto 15px; max-width: 500px;">             
+                <li>Pay a <strong>R50 deposit</strong> to secure your slot (see bank details below).</li>
+                <li>Click on the book via WhatsApp button to book your appointment.</li>
+                <li>Share the proof of payment via WhatsApp.</li>
+                <li>The remaining balance is payable at your appointment.</li>
+            </ol>
+            <div style="background: #f9e8f2; border-radius: 8px; padding: 18px 20px; margin-top: 15px; color: #3a3a3a;">
+                <strong>Deposit Required:</strong><br>
+                A <strong>R50 deposit</strong> is needed to secure your slot.<br><br>
+                <strong>Bank Details:</strong><br>
+                Bank: Capitec<br>
+                Account: 1719641712<br>
+                Number: 076 785 7125
+            </div> 
+              <!-- WhatsApp Booking Button -->
+        <div style="text-align: center; margin: 25px 0;">
+            <a href="https://wa.me/27767847125?text=Hi%20Nailed%20By%20Blessing!%20I'd%20like%20to%20book%20an%20appointment.%20I've%20paid%20my%20R50%20deposit." 
+            class="btn" 
+            style="background-color: #25D366; display: inline-flex; align-items: center; justify-content: center;">
+                <i class="fab fa-whatsapp" style="font-size: 1.2em; margin-right: 8px;"></i> 
+                Book via WhatsApp
+            </a>
+            <p style="font-size: 0.9em; color: var(--text-light); margin-top: 10px; font-weight: bold;color: red    ;">
+                Click to chat directly on WhatsApp for fast and easy booking. Please mention that you have paid the R50 deposit.Share your proof of payment in the chat for confirmation.
+            </p>
+        </div>
+        </div>
+       
+    </div>
+</section>
 
     <!-- Footer -->
-    <div class="footer">
-        <div class="footer-content">
-            <p>&copy; 2025 Nailed By Blessing. All rights reserved.</p>
-            <p>Follow us: <a href="https://instagram.com/nailedbyblessing" target="_blank">Instagram</a></p>
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Nailed By Blessing</h3>
+                    <p>Professional nail care and artistry services in Block B Ekhaya. Let us help you express your unique style through beautiful nails.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://www.instagram.com/nailed_byblessing/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#booking">Book Now</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-phone-alt"></i> 076 784 7125</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Block B Ekhaya</p>
+                    <p><i class="fas fa-clock"></i> By Appointment Only</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Nailed By Blessing. All Rights Reserved.</p>
+            </div>
         </div>
-    </div>
+    </footer>
+
+<!-- Add this at the end of your body, before </body> -->
+<div id="image-modal" class="image-modal" style="display:none;">
+  <span class="close-modal" id="close-modal">&times;</span>
+  <img class="modal-content" id="modal-img" src="" alt="Large view">
+</div>
+
+<script src="script.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 </body>
 </html>
